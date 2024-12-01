@@ -18,7 +18,7 @@
     position:relative;
     align-self: flex-end;
     justify-self: baseline;
-    transform: rotate(-45deg) translate(18%, -2%);
+    transform: rotate(45deg) translate(18%, -2%);
     margin-right: 0;
     margin-left: 135px;
     margin-top: 0;
