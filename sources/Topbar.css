@@ -1,0 +1,163 @@
+.body{
+    min-width: 900px;
+    margin-left: 0;
+    padding-left:2%;
+    padding-top:15px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    overflow-x: visible;
+}
+
+.white{
+    width: 65px;
+    height: 65px;
+    position:absolute;
+    top:15px;
+    left:2%;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin:0;
+    padding:0;
+    align-items: space-around;
+}
+
+.home{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.home:hover{
+    transform: scale(1.1);
+    transition:0.3s ease;
+    cursor: pointer;
+}
+
+.searchbar{
+    border-radius: 27.5px;
+    padding-left: 4px;
+    margin-left: 15px;
+    height: 55px;
+    width: 475px;
+    background-color: #1f1f1f;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30%;
+}
+
+.searchbar:hover{
+    background-color: #2a2a2a;
+    border-color:#404040;
+    border: 1px solid #404040;
+    transition: 0.3s ease;
+    cursor: pointer;
+    height: 53px;
+    .search-icon{
+        opacity: 100%;
+    }
+    .ip{
+        background-color: #2a2a2a;
+        transition: 0.3s ease;
+    }
+    .browse{
+        opacity:100%;
+    }
+}
+
+.search-icon{
+    opacity: 80%;
+    width:auto;
+    height: 35px;
+    margin: 5px;
+}
+
+.search-icon:hover{
+    opacity: 100%;
+    cursor: pointer;
+    text-combine-upright: search;
+}
+
+.ip{
+    border: none;
+    background-color: #1f1f1f;
+    height: 50px;
+    font-size: large;
+    padding-left: 10px;
+    outline:none;
+    width: 355px;
+    border-right-width:thick;
+    border-right-color: #7c7c7c;
+}
+
+.ip:hover{
+    background-color: #2a2a2a;
+    cursor:context-menu;
+}
+
+ip:focus{
+    border-top: 2px solid white;
+}
+
+.slash{
+    justify-items: center;
+    width:1.25px;
+    opacity: 80%;
+    margin:0;
+    background-color: #7c7c7c;
+    height:30px;
+}
+
+.browse{
+    opacity: 80%;
+    height: 50px;
+    margin: 5px;
+}
+
+.browse:hover{
+    opacity: 100%;
+    cursor: pointer;
+    text-combine-upright: search;
+}
+
+.logindiv{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup{
+    margin-right: 15px;
+    color: #b2b2b2;
+}
+
+.signup>p:hover{
+    transform: scale(1.09);
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: white;
+}
+
+.login{
+    background-color: white;
+    height: 55px;
+    width: 90px;
+    border-radius: 27.5px;
+    color: #1f1f1f;
+    text-align: center;
+}
+
+.login:hover{
+    transform: scale(1.09);
+    transition: 0.3s;
+    cursor: pointer;
+}

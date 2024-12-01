@@ -1,0 +1,35 @@
+.box{
+    border-radius: 10px;
+    background-color: #1e3264;
+    width: 235px;
+    height: auto;
+    margin: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.image>img{
+    width: 100px;
+    position:relative;
+    align-self: flex-end;
+    justify-self: baseline;
+    transform: rotate(-45deg) translate(18%, -2%);
+    margin-right: 0;
+    margin-left: 135px;
+    margin-top: 0;
+    padding-top: 0;
+    z-index: 50px;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
